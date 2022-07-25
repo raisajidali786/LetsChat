@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983620583659",
+    "project_id": "rsa-project-8d66b",
+    "storage_bucket": "rsa-project-8d66b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983620583659:android:24715d29b035c64d49beae",
+        "android_client_info": {
+          "package_name": "com.rsa.letschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983620583659-otem85t7dsc270r3u96drd381inkmkif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rsa.letschat",
+            "certificate_hash": "d79ce712c18b2d62fd7dacac0eab67d6e71c7c48"
+          }
+        },
+        {
+          "client_id": "983620583659-dfdm3rhavmlicesbghebdc5mdo3p4gb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz-_5EXS30rCiqpV5ooqE7byCKj-hTdeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983620583659-dfdm3rhavmlicesbghebdc5mdo3p4gb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
