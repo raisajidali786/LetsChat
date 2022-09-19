@@ -1,7 +1,6 @@
-package com.rsa.letschat.activity
+package com.rsa.letschat.ui.activity
 
 import android.Manifest
-import android.app.Activity
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.ContentValues
@@ -9,7 +8,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.media.MediaScannerConnection
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -36,9 +34,7 @@ import com.rsa.letschat.databinding.ActivityRegisterBinding
 import com.rsa.letschat.utils.ClickHandler
 import com.rsa.letschat.utils.Constants.CAPTURE_IMAGE_REQUEST
 import com.rsa.letschat.utils.Helper
-import java.io.ByteArrayOutputStream
 import java.io.File
-import java.io.FileOutputStream
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*

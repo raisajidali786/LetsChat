@@ -34,7 +34,7 @@
             android:layout_marginHorizontal="20dp"
             android:layout_weight="7"
             android:orientation="vertical"
-            tools:context=".activity.LoginActivity">
+            tools:context=".ui.activity.LoginActivity">
 
 
             <EditText

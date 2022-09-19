@@ -1,4 +1,4 @@
-package com.rsa.letschat.activity
+package com.rsa.letschat.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

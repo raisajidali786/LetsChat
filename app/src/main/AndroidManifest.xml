@@ -6,8 +6,8 @@
         android:name="android.hardware.camera"
         android:required="true" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
-
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
@@ -20,16 +20,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LetsChat">
         <activity
-            android:name=".activity.ForgetPasswordActivity"
+            android:name="com.rsa.letschat.ui.activity.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.RegisterActivity"
+            android:name="com.rsa.letschat.ui.activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.rsa.letschat.ui.activity.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.rsa.letschat.ui.activity.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

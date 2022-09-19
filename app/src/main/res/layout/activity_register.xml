@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                tools:context=".activity.LoginActivity">
+                tools:context=".ui.activity.LoginActivity">
 
                 <TextView
                     android:layout_width="wrap_content"
